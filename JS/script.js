@@ -18,8 +18,8 @@ class Smoothie{
             return `A ${this.size} ${this.flavor} smoothie with no additions and made with Frozen Fruit` //Returns order detail
         }else if(this.freshFruit === "true" && this.addition === "None"){
             return `A ${this.size} ${this.flavor} smoothie with no additions and made with Fresh Fruit` //Returns order detail
-        }else if(this.freshFruit === "true" && this.addition === "Milk" || this.freshFruit && this.addition === "Yogurt"){
-            return `A ${this.size} ${this.flavor} smoothie made with ${this.addition} and made with Fresh Fruit` //Returns order detail
+        }else if(this.freshFruit === "true" && this.addition === "Milk" || this.freshFruit === "true" && this.addition === "Yogurt"){
+            return `A ${this.size} ${this.flavor} smoothie made with ${this.addition} and Fresh Fruit` //Returns order detail
         }else{
             return `A ${this.size} ${this.flavor} smoothie made with ${this.addition} and Frozen Fruit`; //Returns order detail
         }

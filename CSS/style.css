@@ -1,0 +1,47 @@
+body{
+    margin: 0; /*Remove margin from body*/
+}
+header{
+    text-align: center; /*Align text to center*/
+    font-size: 2.4rem; /*Set font size*/
+    color: blue; /*Set text color*/
+    background-color: yellow; /*Set background color*/
+}
+div{
+    display: flex; /*Set display to flex*/
+    flex-direction: column; /*Set flex direction to column*/
+    align-items: center; /*Aligns items to center of div*/
+    padding: 10px; /*Adds padding for whitespace*/
+}
+form{
+    display: flex;  /*Set display to flex*/
+    flex-direction: column; /*Set flex direction to column*/
+    align-items: center; /*Aligns items to center of form*/
+    padding: 5px; /*Adds some padding to form so it looks a bit cleaner */
+}
+h1{
+    margin: 0; /* Remove margin from h1*/
+    padding: 15px; /*Adds padding so title looks better*/
+}
+label{
+    padding: 5px; /*Add padding to label so they aren't hugging the inputs*/
+    color: blue; /*Set text color to blue*/
+}
+p{
+    margin: 10px; /*Made margin for p smaller*/
+}
+select, p{
+    color: darkgoldenrod; /*Set text color*/
+}
+label, p, input, select{
+    font-size: 1.4rem; /*Set font size*/
+}
+main div:nth-child(1){
+    border-bottom: 1px solid black; /*Add 1 px border to the bottom of first div*/
+}
+#submit{
+    border-radius: 20px; /*Makes button round*/
+    padding: 10px; /*Add padding so text look cleaner*/
+    background: yellow; /* Set background to yellow*/
+    color: blue; /*Set text color*/
+}
